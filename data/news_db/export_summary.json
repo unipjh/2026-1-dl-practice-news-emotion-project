@@ -1,0 +1,44 @@
+{
+  "source_db": "backend/data/news.db",
+  "output_dir": "data/news_db",
+  "tables": [
+    {
+      "table": "headlines",
+      "csv": "data/news_db/headlines.csv",
+      "rows": 98555,
+      "columns": [
+        "id",
+        "headline",
+        "category",
+        "publisher",
+        "published_at",
+        "url",
+        "collected_at",
+        "preprocessed_headline"
+      ],
+      "bytes": 27838398
+    },
+    {
+      "table": "emotion_results",
+      "csv": "data/news_db/emotion_results.csv",
+      "rows": 98380,
+      "columns": [
+        "headline_id",
+        "emotion_probs",
+        "attention_weights",
+        "predicted_at"
+      ],
+      "bytes": 235361878
+    },
+    {
+      "table": "crawler_meta",
+      "csv": "data/news_db/crawler_meta.csv",
+      "rows": 1,
+      "columns": [
+        "key",
+        "value"
+      ],
+      "bytes": 61
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+[
+  {
+    "run": "baseline_th03",
+    "epoch": "4",
+    "val_loss": "0.279",
+    "val_macro_f1": "0.558",
+    "train_loss_epoch": "0.245",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "baseline_th03",
+    "epoch": "5",
+    "val_loss": "0.283",
+    "val_macro_f1": "0.565",
+    "train_loss_epoch": "0.226",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "baseline_th03",
+    "epoch": "6",
+    "val_loss": "0.287",
+    "val_macro_f1": "0.563",
+    "train_loss_epoch": "0.209",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "baseline_th03",
+    "epoch": "7",
+    "val_loss": "0.294",
+    "val_macro_f1": "0.561",
+    "train_loss_epoch": "0.194",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "baseline_th03",
+    "epoch": "8",
+    "val_loss": "0.296",
+    "val_macro_f1": "0.556",
+    "train_loss_epoch": "0.195",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "baseline_th03",
+    "epoch": "9",
+    "val_loss": "0.297",
+    "val_macro_f1": "0.557",
+    "train_loss_epoch": "0.189",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_bt_need19947_s42_repaired",
+    "epoch": "4",
+    "val_loss": "0.28",
+    "val_macro_f1": "0.565",
+    "train_loss_epoch": "0.296",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_bt_need19947_s42_repaired",
+    "epoch": "5",
+    "val_loss": "0.283",
+    "val_macro_f1": "0.56",
+    "train_loss_epoch": "0.276",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_bt_need19947_s42_repaired",
+    "epoch": "6",
+    "val_loss": "0.289",
+    "val_macro_f1": "0.562",
+    "train_loss_epoch": "0.256",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_bt_need19947_s42_repaired",
+    "epoch": "7",
+    "val_loss": "0.292",
+    "val_macro_f1": "0.557",
+    "train_loss_epoch": "0.241",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_bt_need19947_s42_repaired",
+    "epoch": "8",
+    "val_loss": "0.295",
+    "val_macro_f1": "0.557",
+    "train_loss_epoch": "0.241",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_bt_need19947_s42_repaired",
+    "epoch": "9",
+    "val_loss": "0.295",
+    "val_macro_f1": "0.559",
+    "train_loss_epoch": "0.234",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_card_scuins_meanir",
+    "epoch": "3",
+    "val_loss": "0.282",
+    "val_macro_f1": "0.566",
+    "train_loss_epoch": "0.181",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_card_scuins_meanir",
+    "epoch": "4",
+    "val_loss": "0.282",
+    "val_macro_f1": "0.566",
+    "train_loss_epoch": "0.163",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_card_scuins_meanir",
+    "epoch": "5",
+    "val_loss": "0.292",
+    "val_macro_f1": "0.564",
+    "train_loss_epoch": "0.147",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_card_scuins_meanir",
+    "epoch": "6",
+    "val_loss": "0.295",
+    "val_macro_f1": "0.562",
+    "train_loss_epoch": "0.143",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_card_scuins_meanir",
+    "epoch": "7",
+    "val_loss": "0.302",
+    "val_macro_f1": "0.557",
+    "train_loss_epoch": "0.133",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_card_scuins_meanir",
+    "epoch": "8",
+    "val_loss": "0.303",
+    "val_macro_f1": "0.559",
+    "train_loss_epoch": "0.126",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  },
+  {
+    "run": "aug_card_scuins_meanir",
+    "epoch": "9",
+    "val_loss": "0.305",
+    "val_macro_f1": "0.558",
+    "train_loss_epoch": "0.121",
+    "source_log": "recorded_training_log",
+    "note": "logged continuation segment; initial train log file was empty in source artifacts"
+  }
+]

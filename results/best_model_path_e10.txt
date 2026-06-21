@@ -1,0 +1,1 @@
+results/model/aug_card_scuins_meanir/model.bin

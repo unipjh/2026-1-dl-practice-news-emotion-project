@@ -1,0 +1,34 @@
+{
+  "comparison_policy": "canonical comparison uses epoch-10 metrics stored under baseline_th03, aug_bt_need19947_s42_repaired, and aug_card_scuins_meanir; total_seed_gemini_aug remains a saved reference unless rerun separately",
+  "best_condition": "card_scuins_e10",
+  "conditions": [
+    {
+      "condition": "card_scuins_e10",
+      "run": "aug_card_scuins_meanir",
+      "f1_macro": 0.5677731483790877,
+      "f1_micro": 0.6501413300143075,
+      "epochs": 10,
+      "model_path": "results/model/aug_card_scuins_meanir/model.bin",
+      "note": "card & SCUins filtered 19,734, epoch 10 metrics"
+    },
+    {
+      "condition": "back_translation_e10",
+      "run": "aug_bt_need19947_s42_repaired",
+      "f1_macro": 0.5611171447227383,
+      "f1_micro": 0.6499242605437295,
+      "epochs": 10,
+      "model_path": "results/model/aug_bt_need19947_s42_repaired/model.bin",
+      "note": "BT repaired 19,947, epoch 10 metrics"
+    },
+    {
+      "condition": "baseline_e10",
+      "run": "baseline_th03",
+      "f1_macro": 0.5586952018525216,
+      "f1_micro": 0.6530354869974427,
+      "epochs": 10,
+      "model_path": "results/model/baseline_th03/model.bin",
+      "note": "원본 train only, epoch 10 metrics"
+    }
+  ],
+  "best_model_path": "results/model/aug_card_scuins_meanir/model.bin"
+}

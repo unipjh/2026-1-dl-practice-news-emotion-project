@@ -1,0 +1,4 @@
+condition,f1_macro,delta_macro_vs_baseline_e10,f1_micro,delta_micro_vs_baseline_e10,epochs,model_path,note
+card_scuins_e10,0.5677731483790877,0.009077946526566016,0.6501413300143075,-0.002894156983135221,10,results/model/aug_card_scuins_meanir/model.bin,"card & SCUins filtered 19,734, epoch 10 metrics"
+back_translation_e10,0.5611171447227383,0.0024219428702166867,0.6499242605437295,-0.0031112264537132006,10,results/model/aug_bt_need19947_s42_repaired/model.bin,"BT repaired 19,947, epoch 10 metrics"
+baseline_e10,0.5586952018525216,0.0,0.6530354869974427,0.0,10,results/model/baseline_th03/model.bin,"원본 train only, epoch 10 metrics"

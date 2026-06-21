@@ -1,0 +1,29 @@
+{
+  "target": 19947,
+  "output_rows": 19947,
+  "kept_from_input": 7440,
+  "regenerated": 12507,
+  "input_reject_reasons": {
+    "known_broken_phrase": 3105,
+    "latin_dominant": 5788,
+    "too_few_korean_chars": 2300,
+    "repeated_chunk": 371,
+    "han_chars": 116,
+    "too_few_words": 469,
+    "too_long": 79,
+    "empty_text": 70,
+    "low_unique_word_ratio": 209
+  },
+  "regeneration_reject_reasons": {
+    "known_broken_phrase": 8101,
+    "latin_dominant": 13127,
+    "too_few_korean_chars": 5249,
+    "too_few_words": 907,
+    "too_few_latin_chars": 15,
+    "han_chars": 446
+  },
+  "exhausted_candidates": 0,
+  "input": "data/augmented/bt/aug_bt_need19947_s42.jsonl",
+  "output": "data/augmented/bt/aug_bt_need19947_s42_repaired.jsonl",
+  "status": "complete"
+}

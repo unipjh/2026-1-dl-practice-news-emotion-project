@@ -1,0 +1,46 @@
+# Environment / secrets
+.env
+.env.*
+!.env_example
+
+# Python generated files
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Node / frontend generated files
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.log
+
+# Local database artifacts
+backend/data/*.db
+backend/data/*.db-*
+
+# Large model artifacts submitted separately
+resources/kcelectra-base/pytorch_model.bin
+results/model/**/model.bin
+results/model/**/ckpt/
+*.ckpt
+
+# Large data artifacts submitted separately
+# Full data package: dl-prac-submission-data-utf8.zip
+# This CSV is >100MB uncompressed, so GitHub rejects it without Git LFS.
+data/news_db/emotion_results.csv
+*.zip
+*.tar.gz
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

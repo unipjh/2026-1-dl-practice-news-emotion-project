@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+requests
+transformers
+torch
+apscheduler
+pytorch-lightning
+feedparser
