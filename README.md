@@ -1,3 +1,19 @@
+<!-- problem-first-summary:start -->
+**Huge Problem(Pain Point):** 44개 감정의 심한 라벨 불균형 때문에 뉴스 감정을 멀티라벨로 안정적으로 학습·비교하기 어렵다.
+
+**솔루션 한 줄 정의:** 불균형 분석·증강 실험·재현 가능한 평가와 뉴스 모니터링 앱을 하나의 파이프라인으로 묶는다.
+
+**현재 상태:** 실험 프로젝트
+
+**문제 해결 중심의 사고 흐름**
+
+1. **관찰** — 희소 감정은 전체 지표에 가려지고, 단일 증강 방식만으로는 어떤 라벨이 개선됐는지 설명하기 어려웠다.
+2. **선택** — baseline, Back Translation, card/SCUins 조건을 같은 평가 기준으로 비교했다.
+3. **구현** — KOTE 데이터 분석, 증강 스크립트, 학습 결과, 모델 리포트와 뉴스 모니터링 앱을 재현 가능한 구조로 정리했다.
+4. **검증과 한계** — 보존된 test 결과에서 card/SCUins 조건이 macro F1 0.5678로 가장 높았고, 희소 라벨별 차이와 한계도 함께 기록했다.
+<!-- problem-first-summary:end -->
+
+---
 # dl-prac-submission
 
 KOTE 44-class multilabel emotion classification 실험과 뉴스 헤드라인 모니터링 앱을 한 루트에서 재현할 수 있도록 정리한 제출본이다.
